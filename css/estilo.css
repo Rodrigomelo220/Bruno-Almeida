@@ -16,3 +16,10 @@ body {
 	min-width: 400px;
 	max-width: auto; 
 }
+
+#mapa {
+	background-color: #F0BE2D;
+	padding: 7px;
+	border-radius: 5%;
+	
+}
