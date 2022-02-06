@@ -6153,6 +6153,10 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+.bg-azulescuro {
+  background-color: #224153 !important;
+}
+
 .border {
   border: 1px solid #dee2e6 !important;
 }
