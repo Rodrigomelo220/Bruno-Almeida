@@ -1,5 +1,5 @@
 #home {
-	background: #007BFF;
+	background: #224153 /*#007BFF*/;
 	color: white;
 }
 
@@ -19,8 +19,22 @@ body {
 }
 
 #mapa {
-	background-color: #F0BE2D;
+	background-color: #d2d2d2 /*#F0BE2D*/;
 	padding: 7px;
 	border-radius: 5%;
 	
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #d2d2d2;
+	border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #224153;
+	border-radius: 30px;
 }
