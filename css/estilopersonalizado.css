@@ -45,3 +45,24 @@
     background-color: #D2D2D2;
     border-color: #D2D2D2;
   }
+
+  /*BOTOES*/
+  .btn-outline-azul {
+    color: #46CFF8;
+    border-color: #46CFF8;
+  }
+  .btn-outline-azul:hover {
+    color: #fff;
+    background-color: #46CFF8;
+    border-color: #46CFF8;
+  }
+
+  .btn-outline-verde {
+    color: #01E675;
+    border-color: #01E675;
+  }
+  .btn-outline-verde:hover {
+    color: #fff;
+    background-color: #01E675;
+    border-color: #01E675;
+  }
