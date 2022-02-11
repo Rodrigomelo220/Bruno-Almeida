@@ -15,7 +15,33 @@
 }
 
 /*CORES*/
-
 .bg-azulEscuro {
 	background-color: #224153 !important;
+  }
+
+.bg-azulClaro {
+	background-color: #46CFF8 !important;
+  }
+
+.bg-cinza {
+	background-color: #D2D2D2 !important;
+  }
+
+/*CORES DE BOTÕES*/
+.btn-azulEscuro {
+    color: #fff;
+    background-color: #224153;
+    border-color: #224153;
+  }
+
+  .btn-azulClaro {
+    color: #fff;
+    background-color: #46CFF8;
+    border-color: #46CFF8;
+  }
+
+  .btn-cinza {
+    color: #224153;
+    background-color: #D2D2D2;
+    border-color: #D2D2D2;
   }

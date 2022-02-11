@@ -23,10 +23,10 @@
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-azulEscuro text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">Cabeça de Empresário</a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-azulClaro text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -37,7 +37,7 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#apresentação">Apresentação</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#portfolio">Portfolio</a></li>
+                            href="#portfolio">Postagens</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#quemSou">Quem
                             Sou</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
@@ -64,7 +64,7 @@
         </div>
     </header>
     <!--Apresentação-->
-    <section class="page-section apresentação" id="apresentação">
+    <section class="page-section apresentação text-justify" id="apresentação">
         <div class="container">
             <!-- Portfolio Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Apresentação</h2>
@@ -74,9 +74,9 @@
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <!-- Portfolio Grid Items-->
+            <!--Texto de Apresentação-->
             <div class="row">
-                <div class="col-lg-10 m-auto">
+                <div class="col-lg-9 m-auto text-justify">
                     <p class="lead">Ser empresário no Brasil não é uma tarefa fácil, manter a gestão da empresa de forma
                         saudável é mais difícil ainda. <br>
 
@@ -130,7 +130,7 @@
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Postagens</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -211,7 +211,7 @@
     <!--Fim-Portifolio-->
 
     <!-- Quem Sou -->
-    <section class="page-section bg-primary text-white mb-0" id="quemSou">
+    <section class="page-section bg-azulEscuro text-white mb-0" id="quemSou">
         <div class="container">
             <!-- About Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white">Quem Sou</h2>
@@ -221,9 +221,9 @@
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <!-- About Section Content-->
-            <div class="row">
-                <div class="col-lg-10 m-auto text-justify">
+            <!--Conteudo de Quem sou-->
+            <div class="row text-justify">
+                <div class="col-lg-9 m-auto text-justify">
                     <p class="lead text-justify">
                         Sou Bruno, psicólogo e consultor especializado em atendimento a empresários. <br>
 
@@ -311,14 +311,14 @@
                         <div class="form-floating mb-3">
                             <input class="form-control" id="name" type="text" placeholder="Enter your name..."
                                 data-sb-validations="required" />
-                            <label for="name">Full name</label>
+                            <label for="name">Nome Completo</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="email" type="email" placeholder="name@example.com"
                                 data-sb-validations="required,email" />
-                            <label for="email">Email address</label>
+                            <label for="email">Email</label>
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                         </div>
@@ -326,7 +326,7 @@
                         <div class="form-floating mb-3">
                             <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
                                 data-sb-validations="required" />
-                            <label for="phone">Phone number</label>
+                            <label for="phone">Telefone</label>
                             <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
                             </div>
                         </div>
@@ -335,7 +335,7 @@
                             <textarea class="form-control" id="message" type="text"
                                 placeholder="Enter your message here..." style="height: 10rem"
                                 data-sb-validations="required"></textarea>
-                            <label for="message">Message</label>
+                            <label for="message">Mensagem</label>
                             <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
                             </div>
                         </div>
@@ -360,14 +360,14 @@
                             <div class="text-center text-danger mb-3">Error sending message!</div>
                         </div>
                         <!-- Submit Button-->
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        <button class="btn btn-azulEscuro btn-xl disabled" id="submitButton" type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer text-center">
+    <footer class="footer text-center bg-azulEscuro">
         <div class="container">
             <div class="row">
                 <!-- Footer Location-->
@@ -437,7 +437,7 @@
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
                                 </p>
-                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <button class="btn btn-primary" href="index.html" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -474,7 +474,7 @@
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
                                 </p>
-                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <button class="btn btn-primary" href="index.html" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -511,7 +511,7 @@
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
                                 </p>
-                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <button class="btn btn-primary" href="index.html" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -548,7 +548,7 @@
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
                                 </p>
-                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <button class="btn btn-primary" href="index.html" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -585,7 +585,7 @@
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
                                 </p>
-                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <button class="btn btn-primary" href="index.html" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -623,7 +623,7 @@
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
                                 </p>
-                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <button class="btn btn-primary" href="index.html" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
