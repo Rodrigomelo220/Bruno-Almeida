@@ -66,3 +66,13 @@
     background-color: #01E675;
     border-color: #01E675;
   }
+
+  .btn-outline-azulEscuro {
+    color: #224153;
+    border-color: #224153;
+  }
+  .btn-outline-azulEscuro:hover {
+    color: #fff;
+    background-color: #224153;
+    border-color: #224153;
+  }
