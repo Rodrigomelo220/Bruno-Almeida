@@ -321,4 +321,9 @@
     }
   }
 
-
+/*Details borda*/
+.dt-border {
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 2px;
+}
